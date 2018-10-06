@@ -1,0 +1,108 @@
+{"frames": {
+
+"WIFI-001.png":
+{
+	"frame": {"x":248,"y":506,"w":244,"h":502},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":502},
+	"sourceSize": {"w":244,"h":502}
+},
+"WIFI-002.png":
+{
+	"frame": {"x":248,"y":2,"w":244,"h":502},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":502},
+	"sourceSize": {"w":244,"h":502}
+},
+"WIFI-003.png":
+{
+	"frame": {"x":2,"y":506,"w":244,"h":502},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":502},
+	"sourceSize": {"w":244,"h":502}
+},
+"WIFI-004.png":
+{
+	"frame": {"x":2,"y":2,"w":244,"h":502},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":244,"h":502},
+	"sourceSize": {"w":244,"h":502}
+},
+"WIFI-005.png":
+{
+	"frame": {"x":494,"y":2,"w":213,"h":113},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":213,"h":113},
+	"sourceSize": {"w":213,"h":113}
+},
+"WIFI-006.png":
+{
+	"frame": {"x":892,"y":74,"w":66,"h":68},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":68},
+	"sourceSize": {"w":66,"h":68}
+},
+"WIFI-007.png":
+{
+	"frame": {"x":892,"y":144,"w":63,"h":65},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":63,"h":65},
+	"sourceSize": {"w":63,"h":65}
+},
+"WIFI-008.png":
+{
+	"frame": {"x":960,"y":74,"w":49,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":14,"w":49,"h":51},
+	"sourceSize": {"w":63,"h":65}
+},
+"WIFI-009.png":
+{
+	"frame": {"x":975,"y":2,"w":35,"h":37},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":28,"w":35,"h":37},
+	"sourceSize": {"w":63,"h":65}
+},
+"WIFI-010.png":
+{
+	"frame": {"x":975,"y":41,"w":23,"h":25},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":40,"w":23,"h":25},
+	"sourceSize": {"w":63,"h":65}
+},
+"WIFI-015.png":
+{
+	"frame": {"x":892,"y":2,"w":81,"h":70},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":81,"h":70},
+	"sourceSize": {"w":81,"h":70}
+},
+"WIFI-016.png":
+{
+	"frame": {"x":709,"y":2,"w":181,"h":171},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":181,"h":171},
+	"sourceSize": {"w":181,"h":171}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "WIFI.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:070974489f412ba2a57c580953682b9a:1/1$"
+}
+}

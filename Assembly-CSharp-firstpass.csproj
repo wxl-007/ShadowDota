@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{E3583A97-92BB-53A1-E447-6569B48EDE92}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/Unity5.4/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/Unity5.4/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Grid Framework\Abstracts\GFGrid.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Abstracts\GFLayeredGrid.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Debug\PolarConversionDebugger.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Extension Methods\GFTransformExtensions.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Extension Methods\GFVectorThreeExtensions.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Extension Methods\GFVectorTwoExtensions.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\GFHexGrid.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\GFPolarGrid.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\GFRectGrid.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderCamera.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Grid Rendering\GFGridRenderManager.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Vectors\GFBoolVector3.cs" />
+     <Compile Include="Assets\Plugins\Grid Framework\Vectors\GFColorVector3.cs" />
+     <Compile Include="Assets\Plugins\LeanTween.cs" />
+     <Compile Include="Assets\Plugins\MeshExtrusion.cs" />
+     <Compile Include="Assets\Plugins\Perlin.cs" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\TAtlas\Equip_Icon\Equip_Icon.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\ReadMe - 3.7.7.txt" />
+     <None Include="Assets\Shaders\REDCommonModelDouble.shader" />
+     <None Include="Assets\Textures\Fonts\RedNumber.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh2.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+     <None Include="Assets\Editor\UnityTestTools\LICENSE.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+     <None Include="Assets\Shaders\Detail.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Scripts\Framework\UnityUtils\SoundManager\ReadMe.txt" />
+     <None Include="Assets\Resources\UnPack\SpecialArea\Shader 0.shader" />
+     <None Include="Assets\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\Shaders\Unlit-AlphaTestDouble.shader" />
+     <None Include="Assets\ThirdPartyPlugin\ReadMe.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (TextureClip).shader" />
+     <None Include="Assets\TAtlas\EquipmentUI\Atlas_EquipmentUI.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (TextureClip).shader" />
+     <None Include="Assets\TAtlas\ReadMe.txt" />
+     <None Include="Assets\Textures\WIFI\WIFI.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />
+     <None Include="Assets\Textures\Fonts\GreenNumber.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Shaders\Unlit - Masked Colored.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 3.shader" />
+     <None Include="Assets\ThirdPartyPlugin\EasyTouch\Readme_first.txt" />
+     <None Include="Assets\Shaders\GlowAdditive.shader" />
+     <None Include="Assets\Scripts\Framework\Utils\LRUCache\ReadMe.txt" />
+     <None Include="Assets\Shaders\Unlit-ZOffNormal.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\DotNetZip\License.txt" />
+     <None Include="Assets\Shaders\Font.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\Poly2Tri\License.txt" />
+     <None Include="Assets\Shaders\Water.shader" />
+     <None Include="Assets\Shaders\DepthMask.shader" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2TransparentOutline 1.shader" />
+     <None Include="Assets\Scripts\Framework\Utils\FastJson\ReadMe.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\ExampleScenes\Materials\Projector Multiply.shader" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2Transparent 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored (TextureClip).shader" />
+     <None Include="Assets\Shaders\CRLuo_TextOBJShader.shader" />
+     <None Include="Assets\ThirdPartyPlugin\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 1.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\ThirdPartyPlugin\uLua\Source\README.txt" />
+     <None Include="Assets\ThirdPartyPlugin\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 3.txt" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2Transparent2POutline 1.shader" />
+     <None Include="Assets\TAtlas\WarAtlas\WarAtlas.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\ExampleScenes\Materials\DiffuseAlwaysVisible.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\ThirdPartyPlugin\Grid Framework\Examples\Level Design + Text Parsing\Level Design Files\Level 2.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored 3.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\dependencies.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 2.shader" />
+     <None Include="Assets\ThirdPartyPlugin\uLua\README.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\ExampleScenes\_Example Scenes.txt" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2Transparent2P 1.shader" />
+     <None Include="Assets\Scripts\Framework\UnityUtils\DispatchToMainThread\ReadMe.txt" />
+     <None Include="Assets\LuaWrap\Base\ReadMe.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Text 3.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Packed 2.shader" />
+     <None Include="Assets\Shaders\Mobile-Particle-Add.shader" />
+     <None Include="Assets\Shaders\hailang2.shader" />
+     <None Include="Assets\ThirdPartyPlugin\Grid Framework\Changelog.txt" />
+     <None Include="Assets\Shaders\Fx\ParticleAdditive.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Packed 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Readme_upgrading.txt" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2Base 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\Clipper\License.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+     <None Include="Assets\Shaders\MainUI3D\Main3DBlur.shader" />
+     <None Include="Assets\Shaders\Outline Ortho Detail.shader" />
+     <None Include="Assets\Editor\UnityTestTools\changelog.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Scripts\Framework\Interface\ReadMe.txt" />
+     <None Include="Assets\TAtlas\HeadRound\HeadRound.txt" />
+     <None Include="Assets\TAtlas\BgAtlas\BgAtlas.txt" />
+     <None Include="Assets\Textures\Fonts\YellowNumber.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\ExampleScenes\Materials\Projector Light.shader" />
+     <None Include="Assets\Shaders\REDCommonModel_Sky.shader" />
+     <None Include="Assets\Scripts\Framework\IO\NetworkIO\HttpEngine\ReadMe.txt" />
+     <None Include="Assets\Scripts\Framework\IO\LocalIO\ReadMe.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\ExampleScenes\Example8_PathTypes\SquareShader.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Readme.txt" />
+     <None Include="Assets\TAtlas\Common\Common.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Text.shader" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2Cutout 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Packed.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Transparent Packed 3.shader" />
+     <None Include="Assets\ThirdPartyPlugin\Grid Framework\Examples\Vectorsity\READ ME FIRST.txt" />
+     <None Include="Assets\TAtlas\MainUI\MainUI.txt" />
+     <None Include="Assets\Scripts\Framework\IO\NetworkIO\SocketEngine\SocketCore\ReadMe.txt" />
+     <None Include="Assets\Shaders\Transparent-Mask.shader" />
+     <None Include="Assets\link.xml" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2BaseOutline 1.shader" />
+     <None Include="Assets\Shaders\REDCommonModel.shader" />
+     <None Include="Assets\ThirdPartyPlugin\uLua\Examples\04_ScriptsFromFile\04_ScriptsFromFile.lua.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\JsonFx\License.txt" />
+     <None Include="Assets\Shaders\Mobile-ZOffDiffuse.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Shaders\Unlit - Additive Colored.shader" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\Plugins\JsonFx\Readme.txt" />
+     <None Include="Assets\Shaders\ToonShader2\TSM2CutoutOutline 1.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Shaders\Refractive.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Resources\Shaders\Unlit - Text (TextureClip).shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Shaders\Unlit - Depth.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\Shaders\GlowAdditiveSimple.shader" />
+     <None Include="Assets\Scripts\Framework\DataLayer\ReadMe.txt" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\ThirdPartyPlugin\NGUI\Examples\Resources\Localization.txt" />
+     <None Include="Assets\ThirdPartyPlugin\AstarPathfindingProject\link.xml" />
+     <None Include="Assets\Shaders\SM_TransparentRim.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity5.4/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/Unity5.4/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncIO">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/Plugins/AsyncIO.dll</HintPath>
+ </Reference>
+ <Reference Include="AWMsg">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/Plugins/Protobuf/AWMsg.dll</HintPath>
+ </Reference>
+ <Reference Include="DTO">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/Plugins/Protobuf/DTO.dll</HintPath>
+ </Reference>
+ <Reference Include="protobuf-net">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/Plugins/Protobuf/protobuf-net.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.ClipperLib">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/ThirdPartyPlugin/AstarPathfindingProject/Plugins/Clipper/Pathfinding.ClipperLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Ionic.Zip.Reduced">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/ThirdPartyPlugin/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.JsonFx">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/ThirdPartyPlugin/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ </Reference>
+ <Reference Include="Pathfinding.Poly2Tri">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/ThirdPartyPlugin/AstarPathfindingProject/Plugins/Poly2Tri/Pathfinding.Poly2Tri.dll</HintPath>
+ </Reference>
+ <Reference Include="BehaviorDesignerRuntime">
+ <HintPath>E:/影游/Shadow_Dota/trunk/ShadowDota/Assets/ThirdPartyPlugin/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

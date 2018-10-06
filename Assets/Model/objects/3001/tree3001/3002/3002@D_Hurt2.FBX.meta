@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 3abe76051408748178b3eb960ff6ba2b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone009
+    100016: Bone010
+    100018: Bone011
+    100020: Bone012
+    100022: Bone013
+    100024: Bone014
+    100026: Bone015
+    100028: Bone016
+    100030: Bone018
+    100032: Bone019
+    100034: Bone020
+    100036: Bone021
+    100038: Bone022
+    100040: Bone023
+    100042: Bone024
+    100044: Bone_HandL
+    100046: Bone_HandR
+    100048: Bone_Spine
+    100050: BoneRoot
+    400000: //RootNode
+    400002: Bone001
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone009
+    400016: Bone010
+    400018: Bone011
+    400020: Bone012
+    400022: Bone013
+    400024: Bone014
+    400026: Bone015
+    400028: Bone016
+    400030: Bone018
+    400032: Bone019
+    400034: Bone020
+    400036: Bone021
+    400038: Bone022
+    400040: Bone023
+    400042: Bone024
+    400044: Bone_HandL
+    400046: Bone_HandR
+    400048: Bone_Spine
+    400050: BoneRoot
+    7400000: D_Hurt2
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: D_Hurt2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BoneRoot
+        weight: 1
+      - path: BoneRoot/Bone001
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone003
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone003/Bone004
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone003/Bone004/Bone005
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone009
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone009/Bone010
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone011
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone011/Bone012
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone013
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone006/Bone007/Bone_HandL/Bone013/Bone014
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone018
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone018/Bone019
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone020
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone020/Bone021
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone022
+        weight: 1
+      - path: BoneRoot/Bone001/Bone_Spine/Bone024/Bone015/Bone016/Bone_HandR/Bone022/Bone023
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

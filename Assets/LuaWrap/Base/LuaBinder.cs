@@ -1,0 +1,59 @@
+﻿using System;
+
+public static class LuaBinder
+{
+	public static void Bind(IntPtr L)
+	{
+		AnimationWrap.Register(L);
+		AnimatorWrap.Register(L);
+		ApplicationWrap.Register(L);
+		AssetBundleWrap.Register(L);
+		BaseLuaWrap.Register(L);
+		BehaviourWrap.Register(L);
+		ColorWrap.Register(L);
+		ComponentWrap.Register(L);
+		CoreWrap.Register(L);
+		DebugWrap.Register(L);
+		DeviceInfoWrap.Register(L);
+		DownLoadFromWebWrap.Register(L);
+		EventListenerWrap.Register(L);
+		EventSenderWrap.Register(L);
+		GameObjectWrap.Register(L);
+		JumperWrap.Register(L);
+		LuaLinkerWrap.Register(L);
+		LuaManagerWrap.Register(L);
+		LuaScriptMgrWrap.Register(L);
+		LuaToolsWrap.Register(L);
+		MathWrap.Register(L);
+		MonoBehaviourWrap.Register(L);
+		NGUIDebugWrap.Register(L);
+		ObjectWrap.Register(L);
+		ResourcesWrap.Register(L);
+		TimeWrap.Register(L);
+		TransformWrap.Register(L);
+		TweenAlphaWrap.Register(L);
+		TweenPositionWrap.Register(L);
+		TweenScaleWrap.Register(L);
+		TypeWrap.Register(L);
+		UIBasicSpriteWrap.Register(L);
+		UIButtonColorWrap.Register(L);
+		UIButtonWrap.Register(L);
+		UICameraWrap.Register(L);
+		UIEventManagerWrap.Register(L);
+		UILabelWrap.Register(L);
+		UIPanelWrap.Register(L);
+		UIProgressBarWrap.Register(L);
+		UIRectWrap.Register(L);
+		UISliderWrap.Register(L);
+		UISpriteWrap.Register(L);
+		UITextureWrap.Register(L);
+		UITweenerWrap.Register(L);
+		UIWidgetContainerWrap.Register(L);
+		Vector2Wrap.Register(L);
+		Vector3Wrap.Register(L);
+		UIWidgetWrap.Register(L);
+		DirectoryWrap.Register(L);
+		FileWrap.Register(L);
+		yieldWrap.Register(L);
+	}
+}
